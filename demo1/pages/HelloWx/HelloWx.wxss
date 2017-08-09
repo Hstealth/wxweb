@@ -1,0 +1,30 @@
+/* HelloWx.wxss */
+.container{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.image{
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 200rpx;
+  border-radius: 50%;
+
+}
+.name{
+  margin-top: 100rpx;
+}
+.btn{
+  border: 5rpx solid #cccccc;
+  border-radius: 10rpx;
+  margin-top: 200rpx;
+  width:300rpx;
+  height: 100rpx;
+  text-align: center
+}
+page{
+background: skyblue
+}
+.btn_text{
+ line-height: 100rpx;
+}

@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/HelloWx/HelloWx",
+    "pages/posts/post",
+   
+    "pages/post_detail/post-detail",
+    "pages/movies/movies"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#405f80"
+  },
+  "tabBar": {
+    "borderStyle":"white",
+     "selectedColor":"yellow",
+     "backgroundColor":"#999",
+    "list": [
+      {
+        "pagePath": "pages/movies/movies",
+        "text": "电影",
+        "iconPath":"/images/tab/dianying.png",
+        "selectedIconPath":"/images/tab/dianying_hl.png"
+        
+      },
+      {
+        "pagePath": "pages/posts/post",
+        "text": "阅读",
+        "iconPath": "/images/tab/yuedu.png",
+        "selectedIconPath": "/images/tab/yuedu_hl.png"
+      }
+    ]
+
+  }
+
+}

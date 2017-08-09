@@ -1,0 +1,13 @@
+<!--HelloWx.wxml-->
+<view class="container">
+<image src="/images/1.jpg" class="image"></image>
+<text class="name">Hello,星期八</text>
+
+<view class="btn" catchtap="login">
+<text  class="btn_text">开启小程序之旅</text>
+</view>
+
+
+
+
+</view>

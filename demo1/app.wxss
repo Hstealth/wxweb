@@ -1,0 +1,6 @@
+text{
+  font-size: 24rpx;
+  font-family: '微软雅黑';
+  color: #369;
+  font-weight: bold
+}

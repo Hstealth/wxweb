@@ -1,0 +1,19 @@
+<template  name='postList'>
+<view class="post_content">
+       <view class="post_author_date">
+              <image src="{{avatar}}"></image>
+              <text>{{date}}</text>
+      </view>
+       <text class="post_title">{{title}}</text>
+      <image src="{{headImgSrc}}" class='post_images'></image>
+      <text class="post_text">{{content}}</text>
+      <view class="post_like_content">
+              <image class="post_like_images" src="../../images/icon/star.png"></image>
+              <text class="post_like_title">{{reading}}</text>
+              <image class="post_like_images" src="../../images/icon/view.png"></image>
+              <text class="post_like_title">{{collection}}</text>
+      </view>
+
+</view>
+
+</template>
